@@ -6,7 +6,7 @@ Yet to come
 
 # Development Setup
 
->`git@github.com:lukasboehm97/pk_webpage.git`<br/>
+>`git clone git@github.com:lukasboehm97/pk_webpage.git`<br/>
 >`python3 -m venv .venv`<br/>
 >`source .venv/bin/activate`<br/>
 >`pip install django`<br/>
