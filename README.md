@@ -1,7 +1,10 @@
-# pk_webpage
-Small Webpage
+# About
+Simple homepage that can be used for blogging or similar
 
-## Development
+# License
+Yet to come
+
+# Development Setup
 
 >`git@github.com:lukasboehm97/pk_webpage.git`<br/>
 >`python3 -m venv .venv`<br/>
