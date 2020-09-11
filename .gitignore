@@ -1,4 +1,5 @@
 .venv
+.vscode
 *.pyc
 media
 db.sqlite3
