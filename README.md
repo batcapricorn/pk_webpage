@@ -1,5 +1,5 @@
 # About
-Simple homepage that can be used for blogging or similar
+Simple homepage that can be used for blogging
 
 # License
 Yet to come
