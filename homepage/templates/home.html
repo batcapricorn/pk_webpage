@@ -10,10 +10,57 @@
   <script src='{% static "css/js/jquery.min.js" %}'></script>
   <script src='{% static "css/bootstrap/js/bootstrap.min.js" %}'></script>
   <link rel="stylesheet" href='{% static "css/style.css" %}'>
+
 </head>
-<body class='bg' style="background-image: url('{% static "images/background.jpg" %}');">
+<body>
   
   {% block navbar %}{% include 'nevbar.html' %}{% endblock navbar%}
+
+  <main role="main">
+
+    <section class="jumbotron text-center bg" style="background-image: url('{% static "images/background.jpg" %}');">
+      <div class="container">
+        <h1 class="jumbotron-heading">Willkommen</h1>
+        <p class="lead text-muted" >Ich bin pasi0104lp, der Gründer dieser Community. Hier auf meiner Website findet Ihr alles Wissenswerte rund um meine Spieleserver und meinen Discord-Server. Schaut euch doch einfach mal um.</p>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="display: block; object-fit: contain; height: 225px" src="{% static "images/controller.png" %}">
+              <div class="card-body">
+                <p class="card-text">
+                  Auf ausgewählten Spieleservern könnt ihr zusammen mit anderen Spielern gemeinsam spielen.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="display: block; object-fit: contain; height: 225px" src="{% static "images/controller.png" %}">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="display: block; object-fit: contain; height: 225px" src="{% static "images/controller.png" %}">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+  </main>
+
+  <script src="./Album example for Bootstrap_files/jquery-3.2.1.slim.min.js.Herunterladen" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="./Album example for Bootstrap_files/popper.min.js.Herunterladen"></script>
+  <script src="./Album example for Bootstrap_files/bootstrap.min.js.Herunterladen"></script>
+  <script src="./Album example for Bootstrap_files/holder.min.js.Herunterladen"></script>
 
 </body>
 </html>
