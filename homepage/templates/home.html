@@ -6,21 +6,14 @@
   <title>pasi0104lp's Community</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-    #bg{
-      background-size: 100%;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-position: top;
-      background-attachment: fixed;
-}
-  </style>
+  <link rel="stylesheet" href='{% static "css/bootstrap/css/bootstrap.min.css" %}'>
+  <script src='{% static "css/js/jquery.min.js" %}'></script>
+  <script src='{% static "css/bootstrap/js/bootstrap.min.js" %}'></script>
+  <link rel="stylesheet" href='{% static "css/style.css" %}'>
 </head>
-<body id='bg' style="background-image: url('{% static "images/background.jpg" %}');">
-    {% block navbar %}{% include 'nevbar.html' %}{% endblock navbar%}
+<body class='bg' style="background-image: url('{% static "images/background.jpg" %}');">
+  
+  {% block navbar %}{% include 'nevbar.html' %}{% endblock navbar%}
 
 </body>
 </html>

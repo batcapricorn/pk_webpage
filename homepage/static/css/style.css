@@ -1,0 +1,14 @@
+{% load static %}
+
+.bg{
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.stdtext{
+    font-family: arial;
+    font-size: 20px;
+}
