@@ -10,3 +10,7 @@
     font-family: arial;
     font-size: 20px;
 }
+
+.card:hover{
+    transform: scale(1.05);
+}
