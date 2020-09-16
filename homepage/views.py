@@ -9,3 +9,5 @@ def nevbar_view(request, *args, **kwargs):
 def contact_view(request, *args, **kwargs):
     return render(request, 'contact.html', {})
 
+def server_view(request, *args, **kwargs):
+    return render(request, 'server.html', {})

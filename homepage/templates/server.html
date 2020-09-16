@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Server</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href='{% static "css/bootstrap/css/bootstrap.min.css" %}'>
+  <script src='{% static "js/jquery.min.js" %}'></script>
+  <script src='{% static "css/bootstrap/js/bootstrap.min.js" %}'></script>
+  <link rel="stylesheet" href='{% static "css/style.css" %}'>
+</head>
+<body>
+    {% block navbar %}{% include 'nevbar.html' %}{% endblock navbar%}
+
+    <main role="main">
+
+        <section class="jumbotron text-center bg" style="background-image: url('{% static "images/background.jpg" %}');">
+          <div class="container">
+            <h1 class="jumbotron-heading">Meine Server</h1>
+          </div>
+        </section>
+    </main>
+</body>
+</html>
