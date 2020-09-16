@@ -21,10 +21,12 @@ from django.conf.urls.static import static
 from homepage.views import home_view
 from homepage.views import nevbar_view
 from homepage.views import contact_view
+from homepage.views import server_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home_view, name='home'),
     path('nevbar/', nevbar_view, name='nevbar'),
-    path('contact/', contact_view, name='contact')
+    path('contact/', contact_view, name='contact'),
+    path('server/', server_view, name='server')
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

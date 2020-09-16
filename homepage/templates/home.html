@@ -7,13 +7,58 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href='{% static "css/bootstrap/css/bootstrap.min.css" %}'>
-  <script src='{% static "css/js/jquery.min.js" %}'></script>
-  <script src='{% static "css/bootstrap/js/bootstrap.min.js" %}'></script>
   <link rel="stylesheet" href='{% static "css/style.css" %}'>
+  <script src='{% static "js/jquery.min.js" %}'></script>
+  <script src='{% static "js/script.js" %}'></script>
+  <script src='{% static "css/bootstrap/js/bootstrap.min.js" %}'></script>
+
 </head>
-<body class='bg' style="background-image: url('{% static "images/background.jpg" %}');">
+<body>
   
   {% block navbar %}{% include 'nevbar.html' %}{% endblock navbar%}
+
+  <main role="main">
+
+    <section class="jumbotron text-center bg" style="background-image: url('{% static "images/background.jpg" %}');">
+      <div class="container">
+        <h1 class="jumbotron-heading">Willkommen</h1>
+        <p class="lead text-muted" >Ich bin pasi0104lp, der Gründer dieser Community. Hier auf meiner Website findet Ihr alles Wissenswerte rund um meine Spieleserver und meinen Discord-Server. Schaut euch doch einfach mal um.</p>
+      </div>
+    </section>
+
+    <div class="album py-5 ">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="display: block; object-fit: contain; height: 225px" src="{% static "images/controller.png" %}">
+              <div class="card-body">
+                <p class="card-text">
+                  Auf ausgewählten Spieleservern wie bspw. Terraria könnt ihr zusammen mit anderen Spielern zocken.</p>
+              </div>
+              <a href="/server" class="stretched-link"></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="display: block; object-fit: contain; height: 225px" src="{% static "images/chat.png" %}">
+              <div class="card-body">
+                <p class="card-text">Wir stellen sowohl einen Discord, als auch einen TeamSpeak-Server zur Verfügung, damit ihr zusammen chatten könnt.</br></p>
+              </div>
+              <a href="/server" class="stretched-link"></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="display: block; object-fit: contain; height: 225px" src="{% static "images/money.png" %}">
+              <div class="card-body">
+                <p class="card-text">Damit wir sowohl die Website, als auch die Server pflegen können, bitten wir um eine einmalige oder regelmäßige Spende.</p>
+              </div>
+              <a href="" class="stretched-link"></a>
+            </div>
+          </div>
+  </main>
 
 </body>
 </html>
